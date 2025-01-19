@@ -13,29 +13,7 @@ body {
     align-items: center;
     padding: 10px 20px;
     background-color: #000;
-}
-
-.navbar .logo {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #007FFF; /* เปลี่ยนสีเป็นธีม */
-}
-
-.navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: #f5f5f5;
-    font-size: x-large;
-}
-
-.navbar ul li a:hover {
-    text-decoration: underline;
-    color: #878787;
+    text-align: center;
 }
 
 /* Hero Section */
