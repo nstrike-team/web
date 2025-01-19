@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,62 +7,69 @@
     <title>NStrike</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <style>
-/* Center the loader */
-#loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
-  width: 120px;
-  height: 120px;
-  margin: -76px 0 0 -76px;
-  border: 16px solid #151515;
-  border-radius: 50%;
-  border-top: 16px solid #fff;
-  -webkit-animation: spin 1s linear infinite;
-  animation: spin 1s linear infinite;
-}
-
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-/* Add animation to "page content" */
-.animate-bottom {
-  position: relative;
-  -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
-  animation-name: animatebottom;
-  animation-duration: 1s
-}
-
-@-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
-  to { bottom:0px; opacity:1 }
-}
-
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
-}
-
-#myDiv {
-  display: none;
-  text-align: center;
-}
 </head>
-<body onload="myFunction()" style="margin:0;">    <header class="navbar">
-        <div id="loader"></div>
-        <div style="display:none;" id="myDiv" class="animate-bottom">
-          <img src="assets/welcome.gif" alt="welcome" height="800px">
-          <a href="home.html" class="button">Enter Site</a>
+<body>
+    <header class="navbar">
+        <a href="/web">
+            <div class="logo">
+                <img src="assets/logo.png" alt="NStrike Logo" class="no-right-click">
+            </div>
+        </a>
+    </header>
+
+    <script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-c6e6db28-6af3-4965-8f89-3e7aab54c445" data-elfsight-app-lazy></div>
+
+    <section id="modes" class="game-modes">
+        <h2>Game Modes</h2>
+        <div class="modes-container">
+            <div class="mode-card">
+                <h3>Deathmatch</h3>
+                <p>Fast-paced combat to eliminate opponents and score the highest!</p>
+            </div>
+            <div class="mode-card">
+                <h3>Zombie</h3>
+                <p>Survive alone against waves of relentless zombies!</p>
+            </div>
         </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <h2>Latest Blog</h2>
+        <div class="post-container">
+            <div class="post-title">NStrike Update Beta 2025.1.18 Part II</div>
+            <div class="post-content">
+                What's New?
+                <ul>
+                    <li>Bugs Fixed</li>
+                </ul>
+            </div>
+            <div class="post-author">Post by: <span style="color: #007fff;">Saransak</span></div>
+            <div class="post-date">Post on: <span style="color: #fff;">18 January 2025</span></div>
+        </div>
+        <br>
+        <a href="blog" class="btn">More Blog</a>
+    </section>
+
+    <section id="community" class="community">
+        <h2>Join Our Discord</h2>
+        <p>Get the latest updates, news, reports exploiters and create Q&A threads.</p>
+        <br>
+        <a href="https://discord.gg/rfwSdw56RD" class="btn">Join Discord</a>
+    </section>
+
+    <section id="join" class="join-us">
+        <h2>Join the Team</h2>
+        <p>Become a part of the NStrike development team.</p>
+        <br>
+        <a href="https://forms.gle/ujTg5UVaGJrD4Uc66" class="btn">Apply Now</a>
+    </section>
+    <hr>
+    <footer>
+        <p>
+            <span>© <script type="text/javascript">document.write(new Date().getFullYear());</script> NStrike Team</span>
+        </p>
+    </footer>
+    <br>
 </body>
 </html>
