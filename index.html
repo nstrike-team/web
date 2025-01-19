@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <style>
+        body {
+            background-color: #000;
+        }
 /* Center the loader */
 #loader {
   position: absolute;
@@ -56,12 +59,27 @@
   display: none;
   text-align: center;
 }
+
+.button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
 </style>
 </head>
 <body onload="myFunction()" style="margin:0;">    <header class="navbar">
         <div id="loader"></div>
         <div style="display:none;" id="myDiv" class="animate-bottom">
           <img src="assets/welcome.gif" alt="welcome" height="800px">
+          <br>
           <a href="home.html" class="button">Enter Site</a>
         </div>
 </body>
