@@ -191,7 +191,16 @@ footer p span a img {
     font-weight: bold;
     margin-bottom: 10px;
   }
-  
+
+  .post-title a {
+    color: #007fff;
+    text-decoration: none;
+  }
+
+.post-title a:hover {
+    text-decoration: underline;
+  }
+
   .post-content {
     font-size: 20px;
     margin-bottom: 20px;
@@ -206,7 +215,3 @@ footer p span a img {
     font-size: 14px;
     color: #9c9c9c;
   }
-
-  hr {
-    width: 1000px;
-}
