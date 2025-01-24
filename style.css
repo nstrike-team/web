@@ -216,17 +216,12 @@ footer p span a img {
     color: #9c9c9c;
   }
 
-.btn {
-    margin-top: 10px;
-    background-color: #007FFF; /* เปลี่ยนสีเป็นธีม */
-    color: #f5f5f5;
-    padding: 10px 20px;
+.backtohome {
+    text-align: center;
+    color: #007fff;
     text-decoration: none;
-    border-radius: 5px;
-    transition: 0.2s;
 }
 
-.btn:hover {
-    background-color: #f5f5f5; /* เปลี่ยนสีเป็นธีม */
-    color: #007FFF;
+.backtohome:hover {
+    text-decoration: underline;
 }
