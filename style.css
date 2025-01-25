@@ -102,35 +102,7 @@ footer {
     text-align: center;
     padding: 20px;
     color: #9f9f9f;
-}
-
-footer p span, footer p span a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-footer p span .discord {
-    color: #5865f2;
-}
-
-footer p span .fb {
-    color: #1877f2;
-}
-
-footer p span .roblox {
-    color: #ff0000;
-}
-
-footer p span a img {
-    height: 20px;
-}
-
-.no-right-click {
-    pointer-events: none; /* ป้องกันการคลิก */
-    user-select: none;    /* ป้องกันการเลือก */
-    height: 66px;
-    width: 333px;
+    background-color: #000;
 }
 
 .team {
@@ -233,4 +205,12 @@ footer p span a img {
 
 .blog h1 {
     font-size: 2.5rem;
+}
+
+.game-modes h1 {
+    font-size: 2.5rem;
+}
+
+.game-modes p {
+    font-size: 1.5rem;
 }
