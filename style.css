@@ -225,3 +225,7 @@ footer p span a img {
 .backtohome:hover {
     text-decoration: underline;
 }
+
+.blog h3 {
+    color: gray;
+}
